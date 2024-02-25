@@ -1,89 +1,57 @@
 * {
-    padding: 0;
-    margin: 0;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
-nav>a {
-text-decoration: none;
-color: green;
-margin-top: 1%;
-margin-left: 5%;
-margin-right: 2%;
-text-align: right;
-float: right;
-font-size: larger;
-background-color: rgb(254, 205, 170);
-box-sizing: border-box;
-border-radius: 5px;
-padding: 1%;
+.name{
+  color: blue;
+  font-weight: bold;
+  margin-left: 10%;
 }
-.name {
-color: orange;
-margin-top: 1%;
-margin-left: 5%;
-margin-right: 2%;
-text-align: right;
-float: left;
-font-size: larger;
-box-sizing: border-box;
-border-radius: 5px;
-padding: 1%;
-background-color: rgb(88, 215, 88);
+.op{
+  text-decoration: none;
+  float: right;
+  margin-right: 5%;
+  color: black;
 }
-#main {
-    clear: both; 
+.nav{
+  margin-top: 20px;
 }
-.img {
-    float: right;
-    margin-right: 10%;
-    margin-top: 10%;
-    width: 30%;
+.main{
+  margin-top: 20%;
 }
-.intro{
-    margin-left: 10%;
-    margin-right: 10%;
-    float: left;
-    margin-top: 15%;
-    width: 40%;
-    font-size: x-large;
-    color: green;
-    background-color: beige;
-    border-radius: 20px;
-    box-sizing: border-box;
-    padding: 1%;
-}
-footer{
-    clear: both;
-    margin-top: 50%;
-    margin-bottom: 10%;
-}
-.menu{
-    display: flex;
-    justify-content: center
-
-}
-.div {
-    
-    padding: 7%;
-    box-sizing: border-box;
-    background-color: blanchedalmond;
-    margin-right: 1%;
-    border-radius: 8px;width: 30%;
+.content{
+  float: left;
+  box-sizing: border-box;
+  display: inline;
+  width: 50%;
 }
 
-.div>span{
-    box-sizing: border-box;
-    display: block;
-    font-size: xx-large;
-    justify-content: center;
-    text-align: center;
+h1,p,#b1{
+  margin-left: 20%;
 }
-.div>img{
-    box-sizing: border-box;
-    display: block;
-    width: 60%;
-    
+p{
+  margin-top: 25px;
+  font-size: larger;
+  margin-bottom: 25px;
 }
-
-    
-
-
+.button{
+  border: 1px solid;
+  padding: 7px;
+  border-radius: 5px;
+}
+#b1{
+  color: white;
+  border-color: blue;
+  background-color: blue;
+}
+#b2{
+  margin-left: 10%;
+  background-color:rgb(210, 209, 209);
+  border-color: rgb(210, 209, 209);
+}
+#img{
+  margin-top: -15%;
+  width: 40%;
+  mix-blend-mode: darken;
+}
